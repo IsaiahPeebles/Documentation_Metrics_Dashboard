@@ -1,0 +1,17 @@
+# secrets: never commit
+.env
+.env.*
+
+# local data: rebuildable with fetch.py
+*.db
+*.db-journal
+*.sqlite
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
